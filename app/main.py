@@ -3,7 +3,8 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from app.utils import load_data, get_summary_stats, plot_boxplot, get_top_regions
+from utils import load_data, get_summary_stats, plot_boxplot, get_top_regions
+
 
 st.set_page_config(page_title="Solar Potential Dashboard", layout="wide")
 st.title(" Solar Potential Dashboard")
