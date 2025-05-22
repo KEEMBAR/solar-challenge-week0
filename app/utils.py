@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 def load_data():
-    df_benin = pd.read_csv('data/clean/benin_clean.csv')
+    df_benin = pd.read_csv('../data/clean/benin_clean.csv')
     df_benin['Country'] = 'Benin'
 
-    df_togo = pd.read_csv('data/clean/togo_clean.csv')
+    df_togo = pd.read_csv('../data/clean/togo_clean.csv')
     df_togo['Country'] = 'Togo'
 
-    df_sierra = pd.read_csv('data/clean/sierra_leone_clean.csv')
+    df_sierra = pd.read_csv('../data/clean/sierra_leone_clean.csv')
     df_sierra['Country'] = 'Sierra Leone'
 
     df_all = pd.concat([df_benin, df_togo, df_sierra], ignore_index=True)
