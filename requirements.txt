@@ -114,4 +114,8 @@ webcolors==24.8.0
 webencodings==0.5.1
 websocket-client==1.8.0
 widgetsnbextension==4.0.14
+<<<<<<< HEAD
 zipp==3.20.2
+=======
+zipp==3.20.2
+>>>>>>> 712123aac741bfd8f56fbb0a8d22afa3d04ca2f9
